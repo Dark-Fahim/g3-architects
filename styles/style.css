@@ -21,4 +21,36 @@ body{
   font-optical-sizing: auto;
   font-style: normal;
 }
-/*  */
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.dark-2{
+    color: #424242;
+}
+.dark-3{
+    color: #727272;
+}
+
+.bg-main{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.flex{
+    display: flex;
+}
+
+
+
+/* header styles */
+
+.nav-container{
+    justify-content: space-between;
+    padding: 30px
+}
+
+.links {
+    gap: 30px;
+    
+}
