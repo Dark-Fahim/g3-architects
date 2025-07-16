@@ -22,6 +22,9 @@ body{
   font-style: normal;
 }
 
+section{
+    margin-top: 80px;
+}
 .container{
     max-width: 1170px;
     margin: 0 auto;
@@ -96,17 +99,59 @@ body{
 
 
 
+/* Teams section styles */
+.teams-container{
+    align-items: center;
+    gap: 40px;
+}
+.team-img-container{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.team-img-container img{
+    width: calc(100% - 30px);
+}
+.team-details-container{
+    width: calc(50% - 50px);
+}
 
+.team-details-container h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+#quick-list{
+    font-weight: 500;
+}
+
+#features{
+    color: #FF900E;
+}
+
+.team-details-container p{
+    line-height: 26px;
+    margin: 30px 0;
+}
 
 
 
 /* Media query for mobile device */
 @media screen and (max-width: 576px) {
-    header{
+    header, main, footer{
         padding: 0 10px;
     }
-     .nav-container{
+    
+     .nav-container, .teams-container{
         flex-direction: column;
         gap: 10px;
     }
+    .team-img-container{
+        width: auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-details-container{
+        width: auto;
+    }
+    
 }
