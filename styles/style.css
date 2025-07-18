@@ -194,6 +194,17 @@ section{
     margin-top: 50px;
 }
 
+/* Footer styles */
+.footer{
+    background-color: #FFF4E7;
+    margin: 80px auto;
+    padding: 40px 0;
+}
+.footer p{
+    text-align: center;
+    font-size: 1.25rem;
+}
+
 /* Media query for mobile device */
 @media screen and (max-width: 576px) {
     header, main, footer{
@@ -215,6 +226,9 @@ section{
     }
     .team-details-container{
         width: auto;
+    }
+    .footer{
+        padding: 20px 10px;
     }
     
 }
