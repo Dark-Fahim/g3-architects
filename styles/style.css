@@ -134,6 +134,69 @@ section{
     margin: 30px 0;
 }
 
+/* architect styles */
+.architect-container{
+    gap: 40px;
+}
+.architect-heading{
+    font-size: 2.8rem;
+    font-weight: 700;
+    padding-left: 20px;
+    border-left: 5px solid #FF900E; 
+}
+
+.architect-details>p{
+    line-height: 26px;
+    margin-top: 30px;
+}
+.architect-details{
+    width: 50%;
+}
+.architect-cards{
+    margin-top: 30px;
+}
+
+.architect-card{
+    box-shadow: 4px 0px 30px #00000099;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.architect-card h2{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.architect-card p{
+    color: #727272;
+    line-height: 26px;
+}
+
+.architect-img{
+    width: calc(50% - 50px);
+}
+.architect-img img{
+    width: 100%;
+}
+
+.badge-btn{
+    background-color: #FF900E;
+    padding: 40px;
+    color: #fff;
+    line-height: 40px;
+    font-size: 1.50rem;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: -80px;
+    margin-left: -80px;
+}
+
+.badge-bold{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
 /* Some Fact styles */
 
 .facts-container h2{
@@ -215,9 +278,21 @@ section{
         flex-direction: column;
         gap: 20px;
     }
+    .architect-container{
+        flex-direction: column-reverse;
+    }
     .team-img-container{
         width: auto;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .architect-details{
+        width: 100%;
+    }
+    .architect-img{
+        width: 100%;
+    }
+    .badge-btn{
+        margin: 0;
     }
     .facts-card-container{
         align-items: center;
